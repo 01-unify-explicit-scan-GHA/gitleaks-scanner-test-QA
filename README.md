@@ -82,7 +82,7 @@ docker run -v ${path_to_host_folder_to_scan}:/path ghcr.io/gitleaks/gitleaks:lat
 git clone https://github.com/gitleaks/gitleaks.git
 cd gitleaks
 make build
-```
+``
 
 ### GitHub Action
 
