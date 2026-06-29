@@ -49,7 +49,7 @@ Gitleaks is a tool for **detecting** secrets like passwords, API keys, and token
 
 Finding:     "export BUNDLE_ENTERPRISE__CONTRIBSYS__COM=cafebabe:deadbeef",
 Secret:      cafebabe:deadbeef
-RuleID:      sidekiq-secret
+RuleID:      sidekiq-secret 
 Entropy:     2.609850
 File:        cmd/generate/config/rules/sidekiq.go
 Line:        23
